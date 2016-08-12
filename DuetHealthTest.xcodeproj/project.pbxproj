@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8330F31D5E14B0008F7ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */; };
+		1E8330F51D5E14B0008F7ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F41D5E14B0008F7ED2 /* ViewController.swift */; };
+		1E8330F81D5E14B0008F7ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330F61D5E14B0008F7ED2 /* Main.storyboard */; };
+		1E8330FB1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F91D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld */; };
+		1E8330FD1D5E14B0008F7ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */; };
+		1E8331001D5E14B0008F7ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330FE1D5E14B0008F7ED2 /* LaunchScreen.storyboard */; };
+		1E83310B1D5E14B0008F7ED2 /* DuetHealthTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83310A1D5E14B0008F7ED2 /* DuetHealthTestTests.swift */; };
+		1E8331161D5E14B0008F7ED2 /* DuetHealthTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8331151D5E14B0008F7ED2 /* DuetHealthTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8331071D5E14B0008F7ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8330E71D5E14B0008F7ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8330EE1D5E14B0008F7ED2;
+			remoteInfo = DuetHealthTest;
+		};
+		1E8331121D5E14B0008F7ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8330E71D5E14B0008F7ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8330EE1D5E14B0008F7ED2;
+			remoteInfo = DuetHealthTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8330EF1D5E14B0008F7ED2 /* DuetHealthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuetHealthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E8330F41D5E14B0008F7ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E8330F71D5E14B0008F7ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E8330FA1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DuetHealthTest.xcdatamodel; sourceTree = "<group>"; };
+		1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E8330FF1D5E14B0008F7ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E8331011D5E14B0008F7ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8331061D5E14B0008F7ED2 /* DuetHealthTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetHealthTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E83310A1D5E14B0008F7ED2 /* DuetHealthTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetHealthTestTests.swift; sourceTree = "<group>"; };
+		1E83310C1D5E14B0008F7ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8331111D5E14B0008F7ED2 /* DuetHealthTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetHealthTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8331151D5E14B0008F7ED2 /* DuetHealthTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetHealthTestUITests.swift; sourceTree = "<group>"; };
+		1E8331171D5E14B0008F7ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8330EC1D5E14B0008F7ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8331031D5E14B0008F7ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E83310E1D5E14B0008F7ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8330E61D5E14B0008F7ED2 = {
+			isa = PBXGroup;
+			children = (
+				1E8330F11D5E14B0008F7ED2 /* DuetHealthTest */,
+				1E8331091D5E14B0008F7ED2 /* DuetHealthTestTests */,
+				1E8331141D5E14B0008F7ED2 /* DuetHealthTestUITests */,
+				1E8330F01D5E14B0008F7ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8330F01D5E14B0008F7ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8330EF1D5E14B0008F7ED2 /* DuetHealthTest.app */,
+				1E8331061D5E14B0008F7ED2 /* DuetHealthTestTests.xctest */,
+				1E8331111D5E14B0008F7ED2 /* DuetHealthTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8330F11D5E14B0008F7ED2 /* DuetHealthTest */ = {
+			isa = PBXGroup;
+			children = (
+				1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */,
+				1E8330F41D5E14B0008F7ED2 /* ViewController.swift */,
+				1E8330F61D5E14B0008F7ED2 /* Main.storyboard */,
+				1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */,
+				1E8330FE1D5E14B0008F7ED2 /* LaunchScreen.storyboard */,
+				1E8331011D5E14B0008F7ED2 /* Info.plist */,
+				1E8330F91D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld */,
+			);
+			path = DuetHealthTest;
+			sourceTree = "<group>";
+		};
+		1E8331091D5E14B0008F7ED2 /* DuetHealthTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E83310A1D5E14B0008F7ED2 /* DuetHealthTestTests.swift */,
+				1E83310C1D5E14B0008F7ED2 /* Info.plist */,
+			);
+			path = DuetHealthTestTests;
+			sourceTree = "<group>";
+		};
+		1E8331141D5E14B0008F7ED2 /* DuetHealthTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E8331151D5E14B0008F7ED2 /* DuetHealthTestUITests.swift */,
+				1E8331171D5E14B0008F7ED2 /* Info.plist */,
+			);
+			path = DuetHealthTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8330EE1D5E14B0008F7ED2 /* DuetHealthTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E83311A1D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTest" */;
+			buildPhases = (
+				1E8330EB1D5E14B0008F7ED2 /* Sources */,
+				1E8330EC1D5E14B0008F7ED2 /* Frameworks */,
+				1E8330ED1D5E14B0008F7ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuetHealthTest;
+			productName = DuetHealthTest;
+			productReference = 1E8330EF1D5E14B0008F7ED2 /* DuetHealthTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E8331051D5E14B0008F7ED2 /* DuetHealthTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E83311D1D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestTests" */;
+			buildPhases = (
+				1E8331021D5E14B0008F7ED2 /* Sources */,
+				1E8331031D5E14B0008F7ED2 /* Frameworks */,
+				1E8331041D5E14B0008F7ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8331081D5E14B0008F7ED2 /* PBXTargetDependency */,
+			);
+			name = DuetHealthTestTests;
+			productName = DuetHealthTestTests;
+			productReference = 1E8331061D5E14B0008F7ED2 /* DuetHealthTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E8331101D5E14B0008F7ED2 /* DuetHealthTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8331201D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestUITests" */;
+			buildPhases = (
+				1E83310D1D5E14B0008F7ED2 /* Sources */,
+				1E83310E1D5E14B0008F7ED2 /* Frameworks */,
+				1E83310F1D5E14B0008F7ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8331131D5E14B0008F7ED2 /* PBXTargetDependency */,
+			);
+			name = DuetHealthTestUITests;
+			productName = DuetHealthTestUITests;
+			productReference = 1E8331111D5E14B0008F7ED2 /* DuetHealthTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8330E71D5E14B0008F7ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Verizon;
+				TargetAttributes = {
+					1E8330EE1D5E14B0008F7ED2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1E8331051D5E14B0008F7ED2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E8330EE1D5E14B0008F7ED2;
+					};
+					1E8331101D5E14B0008F7ED2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1E8330EE1D5E14B0008F7ED2;
+					};
+				};
+			};
+			buildConfigurationList = 1E8330EA1D5E14B0008F7ED2 /* Build configuration list for PBXProject "DuetHealthTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E8330E61D5E14B0008F7ED2;
+			productRefGroup = 1E8330F01D5E14B0008F7ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8330EE1D5E14B0008F7ED2 /* DuetHealthTest */,
+				1E8331051D5E14B0008F7ED2 /* DuetHealthTestTests */,
+				1E8331101D5E14B0008F7ED2 /* DuetHealthTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8330ED1D5E14B0008F7ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8331001D5E14B0008F7ED2 /* LaunchScreen.storyboard in Resources */,
+				1E8330FD1D5E14B0008F7ED2 /* Assets.xcassets in Resources */,
+				1E8330F81D5E14B0008F7ED2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8331041D5E14B0008F7ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E83310F1D5E14B0008F7ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8330EB1D5E14B0008F7ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8330F51D5E14B0008F7ED2 /* ViewController.swift in Sources */,
+				1E8330F31D5E14B0008F7ED2 /* AppDelegate.swift in Sources */,
+				1E8330FB1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8331021D5E14B0008F7ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E83310B1D5E14B0008F7ED2 /* DuetHealthTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E83310D1D5E14B0008F7ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8331161D5E14B0008F7ED2 /* DuetHealthTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8331081D5E14B0008F7ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8330EE1D5E14B0008F7ED2 /* DuetHealthTest */;
+			targetProxy = 1E8331071D5E14B0008F7ED2 /* PBXContainerItemProxy */;
+		};
+		1E8331131D5E14B0008F7ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8330EE1D5E14B0008F7ED2 /* DuetHealthTest */;
+			targetProxy = 1E8331121D5E14B0008F7ED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E8330F61D5E14B0008F7ED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8330F71D5E14B0008F7ED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8330FE1D5E14B0008F7ED2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8330FF1D5E14B0008F7ED2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8331181D5E14B0008F7ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E8331191D5E14B0008F7ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E83311B1D5E14B0008F7ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DuetHealthTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E83311C1D5E14B0008F7ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DuetHealthTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E83311E1D5E14B0008F7ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DuetHealthTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuetHealthTest.app/DuetHealthTest";
+			};
+			name = Debug;
+		};
+		1E83311F1D5E14B0008F7ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DuetHealthTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuetHealthTest.app/DuetHealthTest";
+			};
+			name = Release;
+		};
+		1E8331211D5E14B0008F7ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DuetHealthTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DuetHealthTest;
+			};
+			name = Debug;
+		};
+		1E8331221D5E14B0008F7ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DuetHealthTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www..DuetHealthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DuetHealthTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8330EA1D5E14B0008F7ED2 /* Build configuration list for PBXProject "DuetHealthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8331181D5E14B0008F7ED2 /* Debug */,
+				1E8331191D5E14B0008F7ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E83311A1D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E83311B1D5E14B0008F7ED2 /* Debug */,
+				1E83311C1D5E14B0008F7ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E83311D1D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E83311E1D5E14B0008F7ED2 /* Debug */,
+				1E83311F1D5E14B0008F7ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E8331201D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8331211D5E14B0008F7ED2 /* Debug */,
+				1E8331221D5E14B0008F7ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E8330F91D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E8330FA1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodel */,
+			);
+			currentVersion = 1E8330FA1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodel */;
+			path = DuetHealthTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E8330E71D5E14B0008F7ED2 /* Project object */;
+}
