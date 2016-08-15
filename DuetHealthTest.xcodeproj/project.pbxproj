@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E53D25F1D6121140029AD2D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53D25E1D6121140029AD2D /* DetailViewController.swift */; };
 		1E8330F31D5E14B0008F7ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */; };
-		1E8330F51D5E14B0008F7ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F41D5E14B0008F7ED2 /* ViewController.swift */; };
 		1E8330F81D5E14B0008F7ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330F61D5E14B0008F7ED2 /* Main.storyboard */; };
 		1E8330FB1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8330F91D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld */; };
 		1E8330FD1D5E14B0008F7ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */; };
 		1E8331001D5E14B0008F7ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8330FE1D5E14B0008F7ED2 /* LaunchScreen.storyboard */; };
 		1E83310B1D5E14B0008F7ED2 /* DuetHealthTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83310A1D5E14B0008F7ED2 /* DuetHealthTestTests.swift */; };
 		1E8331161D5E14B0008F7ED2 /* DuetHealthTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8331151D5E14B0008F7ED2 /* DuetHealthTestUITests.swift */; };
+		1E8331261D5E162A008F7ED2 /* GamesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8331251D5E162A008F7ED2 /* GamesListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E53D25E1D6121140029AD2D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1E8330EF1D5E14B0008F7ED2 /* DuetHealthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuetHealthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E8330F41D5E14B0008F7ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E8330F71D5E14B0008F7ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E8330FA1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DuetHealthTest.xcdatamodel; sourceTree = "<group>"; };
 		1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		1E8331111D5E14B0008F7ED2 /* DuetHealthTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetHealthTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8331151D5E14B0008F7ED2 /* DuetHealthTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetHealthTestUITests.swift; sourceTree = "<group>"; };
 		1E8331171D5E14B0008F7ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8331251D5E162A008F7ED2 /* GamesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				1E8330F21D5E14B0008F7ED2 /* AppDelegate.swift */,
-				1E8330F41D5E14B0008F7ED2 /* ViewController.swift */,
+				1E8331251D5E162A008F7ED2 /* GamesListTableViewController.swift */,
 				1E8330F61D5E14B0008F7ED2 /* Main.storyboard */,
+				1E53D25E1D6121140029AD2D /* DetailViewController.swift */,
 				1E8330FC1D5E14B0008F7ED2 /* Assets.xcassets */,
 				1E8330FE1D5E14B0008F7ED2 /* LaunchScreen.storyboard */,
 				1E8331011D5E14B0008F7ED2 /* Info.plist */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8330F51D5E14B0008F7ED2 /* ViewController.swift in Sources */,
 				1E8330F31D5E14B0008F7ED2 /* AppDelegate.swift in Sources */,
 				1E8330FB1D5E14B0008F7ED2 /* DuetHealthTest.xcdatamodeld in Sources */,
+				1E8331261D5E162A008F7ED2 /* GamesListTableViewController.swift in Sources */,
+				1E53D25F1D6121140029AD2D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				1E83311C1D5E14B0008F7ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E83311D1D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				1E83311F1D5E14B0008F7ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E8331201D5E14B0008F7ED2 /* Build configuration list for PBXNativeTarget "DuetHealthTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				1E8331221D5E14B0008F7ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
